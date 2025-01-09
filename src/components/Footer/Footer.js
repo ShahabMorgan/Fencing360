@@ -17,14 +17,7 @@ function Footer() {
         <div className="w-24 shrink-0 md:w-20">
           <img src={brandLogo} alt="" />
         </div>
-        <div className="self-center text-Font md:text-center">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          <br /> Maxime obcaecati quod nisi necessitatibus mollitia accusantium
-          porro quae,.
-          <br /> quibusdam exercitationem rem ratione consequuntur sapiente quam
-          vero quis.
-          <br /> enim quasi. Quasi, dolorem!
-        </div>
+        <div className="self-center text-Font md:text-center"></div>
       </div>
 
       <div className="flex items-center justify-center gap-3 ">
