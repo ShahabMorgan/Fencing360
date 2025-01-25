@@ -92,7 +92,7 @@ function Modal() {
         className="fixed inset-0 flex flex-col w-full h-full p-12 m-auto text-center absloute x-col rules"
         ref={rulesEl}
       >
-        <div className="z-50 flex flex-col justify-center w-full p-5 m-auto overflow-auto text-black bg-white h-max text-end rounded-xl">
+        <div className="z-50 flex flex-col w-full p-5 m-auto overflow-auto text-black bg-white h-max text-end rounded-xl">
           <p className="text-center">
             قوانین عضویت شرایط عضویت: افراد متقاضی باید شرایط سنی، توانایی
             جسمانی یا مهارت‌های لازم را داشته باشند
@@ -130,7 +130,7 @@ function Modal() {
         </div>
         <div className="">
           <button
-            className="w-max button"
+            className="mt-5 w-max button"
             onClick={() => {
               removeModal(setModal);
             }}
