@@ -110,9 +110,6 @@ function NavLinks({direction, hoverColor = "text-white"}) {
       <NavLink to="/">خانه</NavLink>
       <NavLink to="/register">ثبت نام</NavLink>
       <NavLink to="/about">درباره با ما</NavLink>
-      <NavLink to="/">خبر ها</NavLink>
-      <NavLink to="/">رویداد ها</NavLink>
-      <NavLink to="/">گالری</NavLink>
     </ul>
   );
 }

@@ -8,12 +8,12 @@ function AboutUs() {
     gsap.fromTo(".about", {opacity: 0}, {opacity: 1, duration: 1});
   });
   return (
-    <div className="flex flex-1 py-12 about xs:flex-col">
-      <div className="w-1/4 h-full ">
+    <div className="flex flex-1 gap-5 py-12 mx-5 about xs:flex-col">
+      <div className="w-1/4 h-full xs:w-full">
         <img
           loading="lazy"
           src={aboutImage}
-          className="object-cover rounded-l-Header"
+          className="object-cover rounded-l-Header xs:rounded-Header"
           alt=""
         />
       </div>
